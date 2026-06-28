@@ -2,12 +2,12 @@
   "name": "@heliosproto/app",
   "version": "0.1.0",
   "private": true,
-  "description": "Helios Wallet — smart-account-native wallet web app",
+  "description": "Helios Wallet \u2014 smart-account-native wallet web app",
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "biome check .",
     "test": "vitest run --config vitest.config.ts --passWithNoTests",
     "test:e2e": "playwright test"

@@ -3,15 +3,12 @@
 Thumbs.db
 
 # Editors
-.vscode/
 .idea/
 *.swp
 *.swo
 *~
 
 # Environment & secrets
-.env
-.env.*
 !.env.example
 *.pem
 *.key
@@ -67,3 +64,4 @@ pids/
 # Misc
 .cache/
 tmp/
+config.bat

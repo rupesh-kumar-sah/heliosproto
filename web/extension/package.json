@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
-    "build": "echo 'TODO: extension bundler' && exit 0",
+    "build": "node init && echo 'TODO: extension bundler' && exit 0",
     "test": "echo 'TODO: extension tests' && exit 0",
     "lint": "biome check ."
   }
