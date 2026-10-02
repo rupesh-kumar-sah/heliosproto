@@ -2,14 +2,14 @@
   "name": "@heliosproto/web",
   "version": "0.0.0",
   "private": true,
-  "description": "Helios Protocol web pillar — wallet app, browser extension, React SDK",
+  "description": "Helios Protocol web pillar \u2014 wallet app, browser extension, React SDK",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "pnpm -r build",
+    "build": "node init && pnpm -r build",
     "test": "pnpm -r test",
     "lint": "biome check .",
     "format": "biome format --write .",
-    "dev": "pnpm --filter @heliosproto/app dev"
+    "dev": "node init && pnpm --filter @heliosproto/app dev"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.0",
